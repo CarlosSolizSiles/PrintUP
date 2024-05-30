@@ -71,7 +71,7 @@ if(isset($_SESSION['nombre_usuario'])) {
     <div class="news-updates">
         <h3>Noticias y Actualizaciones</h3>
         <p>- Nueva función añadida: Impresión a color.</p>
-        <p>- Mantenimiento programado el 15 de junio.</p>
+        <p>- Mantenimiento programado el 16 de junio.</p>
         <p>- ¡Sigue nuestras redes sociales para más actualizaciones!</p>
     </div>
     <div class="support">
