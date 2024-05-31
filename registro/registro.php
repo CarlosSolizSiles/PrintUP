@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/icono.png" type="image/x-icon">
     <link rel="stylesheet" href="styles_registro.css">
     <title>Registro - PrintUP</title>
 </head>
@@ -51,8 +52,8 @@
     }
 ?>
 
-    <header class="header">
-        <h1>PrintUP</h1>
+<header class="header">
+        <img src="../img/logo.png" alt="PrintUP Logo" class="logo">
     </header>
     <main class="login-form">
         <form action="" method="POST">
@@ -72,5 +73,8 @@
             <button type="submit">Registrarse</button>
         </form>
     </main>
+    <footer class="footer">
+        <a href="../index.php" class="index">atrás</a>
+        </footer>
 </body>
 </html>

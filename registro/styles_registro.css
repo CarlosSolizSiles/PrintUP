@@ -28,10 +28,9 @@ body, html {
     cursor: pointer;
 }
 
-.header {
-    margin-top: 20px;
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
+.header .logo {
+    width: 200px;
+    height: auto;
 }
 
 .header h1 {
@@ -120,6 +119,21 @@ body, html {
 .login-form input[type="text"][id="Email"]:hover,
 .login-form input[type="text"][id="Telefono"]:hover {
     border-color: #999; /* Cambia el color del borde al pasar el mouse */
+}
+
+.footer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer .index {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 /* Media query para asegurar la responsividad */

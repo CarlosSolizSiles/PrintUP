@@ -85,6 +85,12 @@ body, html {
     text-align: center;
 }
 
+.header .logo {
+    width: 400px;
+    height: auto;
+}
+
+
 /* Media query para asegurar la responsividad */
 @media (max-width: 600px) {
     .header h1 {

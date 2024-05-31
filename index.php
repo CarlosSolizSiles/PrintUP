@@ -46,12 +46,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icono.png" type="image/x-icon">
     <title>PrintUP - Logeo</title>
     <link rel="stylesheet" href="logeo/styles_logueo.css">
 </head>
 <body>
     <header class="header">
-        <h1>PrintUP</h1>
+        <img src="img/logo.png" alt="PrintUP Logo" class="logo">
     </header>
     <main class="login-form">
         <form id="loginForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -61,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <?php if(isset($error_message)) { ?>
                 <p class="error"><?php echo $error_message; ?></p>
             <?php } ?>
-            <a href="recuperacion_contraseña.php" class="forgot-password">¿Olvidaste la contraseña?</a>
+            <a href="logeo/request_password_reset.php" class="forgot-password">¿Olvidaste la contraseña?</a>
         </form>
     </main>
     <footer class="footer">
