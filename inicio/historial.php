@@ -19,7 +19,7 @@
     <div class="navbar">
         <a href="inicio.php"><i class="fas fa-home"></i> Inicio</a>
         <a href="historial.php"><i class="fas fa-history"></i> Historial</a>
-        <a href="Configuración.php"><i class="fas fa-cog"></i> Configuración</a>
+        <a href="configuracion.php"><i class="fas fa-cog"></i> Configuración</a>
         <a href="perfil.php" id="profile-link"><i class="fas fa-user"></i> Perfil</a>
     </div>
     <script src="script.js"></script>
